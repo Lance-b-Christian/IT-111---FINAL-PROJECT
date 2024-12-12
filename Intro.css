@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+body {
+    background-color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: black;
+}
+nav h1 {
+    color: white;
+}
+.navlink ul{ 
+    display: flex;
+    list-style-type: none;
+}
+
+.navlink li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 14px;
+    color: white;
+    transition: 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+.navlink li a:hover, 
+.navlink li a:active{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.mainpage-container{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.col-1 {
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.col-1 h1{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 500px;
+    line-height: 1.3;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.col-1 p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    margin-left: 500px;
+}
+
+.col-2 img{
+    position: relative;
+    width: 250px;
+    border-radius: 10%;
+    box-shadow: 0 0 25px solid black ;
+    cursor: pointer;
+    transition: 0.2s linear;
+    margin-left: 20px;
+    height: auto;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black
+
+}
+.social-icons a{
+    font-size: 15px;
+    color: black;
+}
+
+.display icons a{
+    margin: 50px 14px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+.footerline {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.contact {
+    width: 100%;
+    height: 50vh;
+}
+
+.contact h1 {
+    margin: 50px 0;
+
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-container form {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-container form input{
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.contact-container form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+    width: 250px;
+}
+
+.contact-container form button {
+    border: none;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+.programming {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    margin-top: 40px;
+}
+
+.programming h2 {
+    margin: 10px 0;
+
+}
+.programming-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-programming {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    color: black;
+
+}
+.social-programming a{
+    font-size: 20px;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 20px;
+    color: black;
+    font-size: 50px;
+}
+
+.project-container h1 {
+    margin: 50px 0;
+    font-size: 30px;
+
+}
+.project-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px black;
+    cursor: pointer;
+    margin: 10px;
+    transition: 40ms;
+}
+
+.project img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
